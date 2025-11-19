@@ -3,22 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cook with Odin!</title>
+    <title>Cooking with Odin!</title>
+    <link rel="stylesheet" href="styling/styles.css">
 </head>
 <body>
-    
-<h1>Welcome to Cook with Odin!</h1>
-<p>Your go-to place for delicious recipes and cooking tips.</p>
+    <div class="card">
+        <h1 class="title">Welcome to Cooking with Odin!</h1>
+        <h2 class="subtitle">Your go-to place for delicious recipes and cooking tips.</h1>
+        <p>Take a look at these <strong>delicious</strong> recipes!</p>
+    </div>
+    <div class="card highlight">
+        <h3>Today's Highlight: <a href="pages/recipes/asian/general_tso.html">General Tso's Chicken!</a></h3>
+    </div>
 
-    <p><h2>Take a look at these <strong>delicious</strong> recipes!</h2></p>
-
-    <h3>Today's Highlight: <a href="pages/recipes/asian/general_tso.html">General Tso's Chicken!</a></h3>
-    <h3>Recipes:</h3>
-    <ul>
-        <li><a href="./pages/recipes/italian/lasagna.html">Lasagna</a></li>
-        <li><a href="./pages/recipes/italian/pizza.html">Pizza</a></li>
-        <li><a href="./pages/recipes/asian/general_tso.html">General Tso's Chicken</a></li>
-    </ul>
-
+    <div class="card content">
+        <h3 class="title">Recipes:</h3>
+        <div class="list">
+            <ul class="recipes">
+                <li><a href="./pages/recipes/italian/lasagna.html">Lasagna</a></li>
+                <li><a href="./pages/recipes/italian/pizza.html">Pizza</a></li>
+                <li><a href="./pages/recipes/asian/general_tso.html">General Tso's Chicken</a></li>
+            </ul>
+        </div>
+    </div>
 </body>
 </html>

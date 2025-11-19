@@ -1,0 +1,51 @@
+.card {
+    color: white;
+    background-color: black;
+    border: red solid 8px;
+    width: 800px;
+    margin: 10px auto;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.content {
+    background-color: #ccffff;
+    color: black;
+    text-align:justify;
+    margin: auto;
+}
+
+.title {
+    font-size: 24px;
+    font-style: bold;
+    color: orange;
+}
+
+.subtitle {
+    font-size: 12px;
+    color: red;
+}
+
+.highlight {
+    padding: 5px;
+    border: yellow solid 8px;
+    font-size: 16px;
+    color: yellow;
+}
+
+.list {
+    width: 600px;
+    margin: 0 ;
+    padding: 10px;
+    border: orange solid;
+    background: white;
+    font-size: 14px;
+    font-style: bold italic;
+    color: green;
+}
+
+.recipes {
+    list-style-type: none;
+    padding: 0;
+}
